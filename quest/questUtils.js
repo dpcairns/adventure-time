@@ -35,3 +35,7 @@ export function renderSection(quest) {
     section.append(div, img, form);
     return section;
 }
+
+export function findById(array, id) { 
+    return array.find(i => i.id === id); 
+}
